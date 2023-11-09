@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #509673; /* Vert BNP Paribas, légèrement moins foncé */
+    color: #838383; /* Gris foncé */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Centrer verticalement */
+}
+
+/* ... Vos autres règles CSS restent les mêmes ... */
+
+
+h1, h2, p {
+    color: #ffffff; /* Blanc */
+}
+
+button {
+    background-color: #ffffff; /* Blanc */
+    color: #005b39; /* Vert BNP Paribas */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005b39; /* Vert BNP Paribas */
+    color: #ffffff; /* Blanc */
+}

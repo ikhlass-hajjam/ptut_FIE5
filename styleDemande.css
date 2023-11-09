@@ -1,0 +1,33 @@
+#frise {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.etape {
+    flex: 1;
+    border: 2px solid #005b39;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.etape label, .etape input {
+    display: block;
+    margin: 10px 0;
+}
+
+.save {
+    background-color: #ffffff; /* Blanc */
+    color: #005b39; /* Vert BNP Paribas */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.save:hover {
+    background-color: #005b39; /* Vert BNP Paribas */
+    color: #ffffff; /* Blanc */
+}
